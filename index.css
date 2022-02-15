@@ -1,0 +1,819 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: rgba(0,0,0,.2)url(sunset.jpg);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-blend-mode: darken;  
+}
+
+.logo h4{
+    font-family: 'Bree Serif', serif;
+    font-size: 3vw;
+    color: white;
+}
+.logo{
+    /* margin-top: 1vw; */
+    /* border: 2px solid red; */
+    margin: 1vw 2vw;
+}
+
+/* ______________________________Second________________________________________ */
+.second{
+    /* border: 2px solid black; */
+    margin: 1vw 0;
+}
+.second h2{
+    color: white;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 300;
+    font-size: 3vw;
+}
+
+.second h2 span{
+    font-weight: 500;
+}
+
+
+/* ___________________________________form for name___________________________________ */
+
+.Name{
+    
+    margin: 1vw 0;
+    /* border: 2px solid green; */
+    text-align: center;
+    
+}
+.Name input{
+    /* border: 2px solid yellow; */
+
+    border-radius: 5vw;
+    padding: 5px;
+    text-align: center;
+    background-color: rgba(255,255,255,.7);
+    
+
+}
+
+
+/* ___________________start user text_______________________ */
+
+.starttext{
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    
+}
+.starttext h2{
+    font-weight: 400;
+}
+.starttext h2 span{
+    font-weight: 600;
+}
+
+
+/* _____________________Questions_____________________ */
+
+.Qbox{
+    margin: 1vw auto;
+    /* border: 2px solid yellow; */
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    background-color: rgba(255,255,255,.3);
+    border-radius: 1vw;
+    padding: .5vw;
+
+
+}
+.Qbox .title{
+    /* border: 2px solid red; */
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    font-size: 4vw;
+    color: rgb(255, 187, 0);
+    text-shadow: black 2px 2px 3px;
+    letter-spacing: 0.08em;
+    
+
+}
+
+.questions{
+    /* border: 2px solid red; */
+    display: flex;
+    width: 90%;
+    /* padding:  20px; */
+    margin: auto;
+    /* margin-top: 2vw; */
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.questions .opt{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid yellow; */
+    width: 33%;
+    padding: 10px;
+    margin: 5px;
+    background-color: rgba(218, 190, 255, 0.8);
+    margin-bottom: 15px;
+    border-radius: 15px;
+    height: max-content;
+
+}
+
+.questions .opt .text{
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    padding-bottom: 5px;
+
+}
+.questions .opt .image{
+    height: 300px;
+    
+    /* border: 2px solid blue; */
+
+}
+.questions .opt .image img{
+    /* width:max-content; */
+    height:90%;
+    max-width: 80%;
+    /* width: 100%; */
+    /* width: 100%; */
+    /* width: 100%; */
+    /* border: 2px solid red; */
+    display: block;
+    position:relative;
+    margin: auto;
+}
+
+.questions .opt .button{
+    /* border: 2px solid green; */
+    padding: 5px ;
+    text-align: center;
+
+}
+.questions .opt .button button{
+    padding: 5px 15px;
+    border-radius: 5vw;
+    border: none;
+    cursor: pointer;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.2em;
+    border: 2px solid blue;
+    background-color: cyan;
+
+}
+
+.questions .opt .button button:hover{
+    border: 2px solid rgb(14, 168, 0);
+    background-color: chartreuse;
+
+}
+
+
+/* __________Submit Ans _________________________ */
+
+.subans{
+    /* border: 2px solid blue; */
+}
+.subans button{
+    display: block;
+    border: none;
+    border-radius: 5vw;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 600;
+    font-size: 1em;
+    background-color: rgb(0, 255, 64);
+    border: 5px solid green;
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+}
+
+.subans button:hover{
+    font-weight: 900;
+    background-color: green;
+    color: white;
+    border: 5px solid rgb(0, 77, 0);
+}
+
+/* _________________Dominance______________________________ */
+.dominance{
+    /* border: 5px solid blue; */
+    display: flex;
+    flex-direction:column;
+    margin-top: 25px;
+}
+.dominance .heading{
+    display: flex;
+    background-color: red;
+    font-family: 'Ubuntu', sans-serif;
+    background: rgba(0,0,0,.2) url(img/back/VATA.jpg);
+    background-position: center;
+    background-size:contain;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-size: cover;
+    background-blend-mode: darken;  
+    height: 10vw;
+    text-align: center;
+    padding: 25px;
+    font-size: 3em;
+    
+}
+.dominance .heading h2{
+    margin: auto;
+    color: white;
+}
+
+.dominance .heading2 h3{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2em;
+    margin: 1% 2%;
+}
+
+.dominance .picsofheadings{
+     width: 95%;
+     margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.dominance .picsofheadings .pic{
+    /* border: 2px solid green; */
+    height: 20vw;
+    
+    
+}
+
+.dominance .picsofheadings .pic h4{
+    color: white;
+    font-size: 2em;
+    padding: 2% 2%;
+    background: tomato;
+    display: inline-block;
+    /* border-bottom-right-radius: 50%; */
+    border-radius: 0px 25px 25px 0px;
+    box-shadow: rgb(0, 0, 0) 5px 5px 5px;
+    width: 50%;
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+
+.dominance .careerpics #pic1{
+    background: rgba(0,0,0,.3) url(./img/back/vata/career/acting.png);
+    background-blend-mode: darken;  
+    background-size: cover;
+
+
+    
+}
+.dominance  .careerpics #pic2{
+    background: rgba(0,0,0,.3) url(./img/back/vata/career/marketing.jpeg);
+    background-blend-mode: darken;  
+    background-position: center;
+    background-size: cover;
+}
+
+.dominance  .careerpics #pic3{
+    background: rgba(0,0,0,.3) url(./img/back/vata/career/sales.jpg);
+    background-blend-mode: darken;  
+    background-position: center;
+    background-size: cover;
+}
+.dominance  .careerpics #pic4{
+    background: rgba(0,0,0,.3) url(./img/back/vata/career/dancing.jpg);
+    background-blend-mode: darken;  
+    background-position: center;
+    background-size: cover;
+}
+.dominance  .careerpics #pic5{
+    background: rgba(0,0,0,.3) url(./img/back/vata/career/teaching.jpg);
+    background-blend-mode: darken;  
+    background-position: center;
+    background-size: cover;
+}
+
+.dominance  .careerpics #pic6{
+    background: rgba(0,0,0,.3) url(./img/back/vata/career/creating.jpg);
+    background-blend-mode: darken;  
+    background-position: center;
+    background-size: cover;
+}
+
+
+.dominance .problems #pic1{
+    background: rgba(0,0,0,.3) url(./img/back/vata/problems/dryness.jpg);
+    background-blend-mode: darken;  
+    background-position: center;
+    background-size: cover;
+}
+.dominance .problems #pic2{
+    background: rgba(0,0,0,.3) url(./img/back/vata/problems/gas.jpg);
+    background-blend-mode: darken;  
+    background-position: center;
+    background-size: cover;
+}
+.dominance .problems #pic3{
+    background: rgba(0,0,0,.3) url(./img/back/vata/problems/bloating.jpg);
+    background-blend-mode: darken;  
+    background-position: center;
+    background-size: cover;
+}
+.dominance .problems #pic4{
+    background: rgba(0,0,0,.3) url(./img/back/vata/problems/indigestion.jpg);
+    background-blend-mode: darken;  
+    background-position: center;
+    background-size: cover;
+}
+.dominance .problems #pic5{
+    background: rgba(0,0,0,.3) url(./img/back/vata/problems/stones.jpg);
+    background-blend-mode: darken;  
+    background-position: center;
+    background-size: cover;
+}
+.dominance .problems #pic6{
+    background: rgba(0,0,0,.3) url(./img/back/vata/problems/fear.jpg);
+    background-blend-mode: darken;  
+    background-position: center;
+    background-size: cover;
+}
+.dominance .problems #pic7{
+    background: rgba(0,0,0,.3) url(./img/back/vata/problems/body-pains.png);
+    background-blend-mode: darken;  
+    background-position: center;
+    background-size: cover;
+}
+.dominance .problems #pic8{
+    background: rgba(0,0,0,.3) url(./img/back/vata/problems/anxiety.jpg);
+    background-blend-mode: darken;  
+    background-position: center;
+    background-size: cover;
+}
+.dominance .problems #pic9{
+    background: rgba(0,0,0,.3) url(./img/back/vata/problems/depression.jpg);
+    background-blend-mode: darken;  
+    background-position: center;
+    background-size: cover;
+}
+/* food avoid */
+.dominance .food-avoid #pic1{
+    background: rgba(0,0,0,.3) url(./img/back/vata/food-avoid/dry-fruits.jpg);
+    background-blend-mode: darken;  
+    background-position: center;
+    background-size: cover;
+}
+.dominance .food-avoid #pic2{
+    background: rgba(0,0,0,.3) url(./img/back/vata/food-avoid/tea.jpg);
+    background-blend-mode: darken;  
+    background-position: center;
+    background-size: cover;
+}
+.dominance .food-avoid #pic3{
+    background: rgba(0,0,0,.3) url(./img/back/vata/food-avoid/coffee.jpg);
+    background-blend-mode: darken;  
+    background-position: center;
+    background-size: cover;
+}
+.dominance .food-avoid #pic4{
+    background: rgba(0,0,0,.3) url(./img/back/vata/food-avoid/raw-veg.jpg);
+    background-blend-mode: darken;  
+    background-position: center;
+    background-size: cover;
+}
+.dominance .food-avoid #pic5{
+    background: rgba(0,0,0,.3) url(./img/back/vata/food-avoid/kidney-beans.jpg);
+    background-blend-mode: darken;  
+    background-position: center;
+    background-size: cover;
+}
+.dominance .food-avoid #pic6{
+    background: rgba(0,0,0,.3) url(./img/back/vata/food-avoid/sour.jpg);
+    background-blend-mode: darken;  
+    background-position: center;
+    background-size: cover;
+}
+.dominance .food-avoid #pic7{
+    background: rgba(0,0,0,.3) url(./img/back/vata/food-avoid/refrigated.jpg);
+    background-blend-mode: darken;  
+    background-position: center;
+    background-size: cover;
+}
+/* food to add */
+.dominance .food-add #pic1{
+    background: rgba(0,0,0,.3) url(./img/back/vata/food-add/oils.jpg);
+    background-blend-mode: darken;  
+    background-position: center;
+    background-size: cover;
+}
+.dominance .food-add #pic2{
+    background: rgba(0,0,0,.3) url(./img/back/vata/food-add/ghee.jpg);
+    background-blend-mode: darken;  
+    background-position: center;
+    background-size: cover;
+}
+.dominance .food-add #pic3{
+    background: rgba(0,0,0,.3) url(./img/back/vata/food-add/dairy.jpg);
+    background-blend-mode: darken;  
+    background-position: center;
+    background-size: cover;
+}
+
+.dominance .daily-habits #pic1{
+    background: rgba(0,0,0,.3) url(./img/back/vata/daily-habits/massage.jpg);
+    background-blend-mode: darken;  
+    background-position: center;
+    background-size: cover;
+}
+.dominance .daily-habits #pic2{
+    background: rgba(0,0,0,.3) url(./img/back/vata/daily-habits/meditation.jpg);
+    background-blend-mode: darken;  
+    background-position: center;
+    background-size: cover;
+}
+
+/* pitta */
+
+#pitta-dominance .heading{
+    background: url(./img/back/pitta-back.jpg);
+}
+
+
+/* career */
+
+
+
+
+.dominance .careerpics-pitta #pic1{
+    background: rgba(0,0,0,.3) url(./img/back/pitta/career/leadership.jpg);
+    background-blend-mode: darken;  
+    background-size: cover;
+
+
+    
+}
+.dominance  .careerpics-pitta #pic2{
+    background: rgba(0,0,0,.3) url(./img/back/pitta/career/management.jpg);
+    background-blend-mode: darken;  
+    background-position: center;
+    background-size: cover;
+}
+
+.dominance  .careerpics-pitta #pic3{
+    background: rgba(0,0,0,.3) url(./img/back/pitta/career/medicine.jpg);
+    background-blend-mode: darken;  
+    background-position: center;
+    background-size: cover;
+}
+.dominance  .careerpics-pitta #pic4{
+    background: rgba(0,0,0,.3) url(./img/back/pitta/career/finance.jpg);
+    background-blend-mode: darken;  
+    background-position: center;
+    background-size: cover;
+}
+.dominance  .careerpics-pitta #pic5{
+    background: rgba(0,0,0,.3) url(./img/back/pitta/career/politics.png);
+    background-blend-mode: darken;  
+    background-position: center;
+    background-size: cover;
+}
+
+.dominance  .careerpics-pitta #pic6{
+    background: rgba(0,0,0,.3) url(./img/back/pitta/career/advocate.jpg);
+    background-blend-mode: darken;  
+    background-position: center;
+    background-size: cover;
+}
+
+
+/* -----------problems------------------- */
+.dominance .problems-pitta #pic1{
+    background: rgba(0,0,0,.3) url(./img/back/pitta/problems/bleeding-gums.jpg);
+    background-blend-mode: darken;  
+    background-position: center;
+    background-size: cover;
+}
+.dominance .problems-pitta #pic2{
+    background: rgba(0,0,0,.3) url(./img/back/pitta/problems/excessive-bleeding.png);
+    background-blend-mode: darken;  
+    background-position: center;
+    background-size: cover;
+}
+.dominance .problems-pitta #pic3{
+    background: rgba(0,0,0,.3) url(./img/back/pitta/problems/acidity.jpg);
+    background-blend-mode: darken;  
+    background-position: center;
+    background-size: cover;
+}
+.dominance .problems-pitta #pic4{
+    background: rgba(0,0,0,.3) url(./img/back/pitta/problems/hari-fall.jpg);
+    background-blend-mode: darken;  
+    background-position: center;
+    background-size: cover;
+}
+.dominance .problems-pitta #pic5{
+    background: rgba(0,0,0,.3) url(./img/back/pitta/problems/skin-rashes.jpg);
+    background-blend-mode: darken;  
+    background-position: center;
+    background-size: cover;
+}
+.dominance .problems-pitta #pic6{
+    background: rgba(0,0,0,.3) url(./img/back/pitta/problems/depression.jpg);
+    background-blend-mode: darken;  
+    background-position: center;
+    background-size: cover;
+}
+.dominance .problems-pitta #pic7{
+    background: rgba(0,0,0,.3) url(./img/back/pitta/problems/frustation.jpg);
+    background-blend-mode: darken;  
+    background-position: center;
+    background-size: cover;
+}
+.dominance .problems-pitta #pic8{
+    background: rgba(0,0,0,.3) url(./img/back/pitta/problems/acid-reflux.jpg);
+    background-blend-mode: darken;  
+    background-position: center;
+    background-size: cover;
+}
+/* food avoid */
+
+.dominance .food-avoid-pitta #pic1{
+    background: rgba(0,0,0,.3) url(./img/back/pitta/food-avoid/salty.jpg);
+    background-blend-mode: darken;  
+    background-position: center;
+    background-size: cover;
+}
+.dominance .food-avoid-pitta #pic2{
+    background: rgba(0,0,0,.3) url(./img/back/pitta/food-avoid/chillies.jpg);
+    background-blend-mode: darken;  
+    background-position: center;
+    background-size: cover;
+}
+.dominance .food-avoid-pitta #pic3{
+    background: rgba(0,0,0,.3) url(./img/back/pitta/food-avoid/egg-meats.jpg);
+    background-blend-mode: darken;  
+    background-position: center;
+    background-size: cover;
+}
+.dominance .food-avoid-pitta #pic4{
+    background: rgba(0,0,0,.3) url(./img/back/pitta/food-avoid/packed-food.jpg);
+    background-blend-mode: darken;  
+    background-position: center;
+    background-size: cover;
+}
+.dominance .food-avoid-pitta #pic5{
+    background: rgba(0,0,0,.3) url(./img/back/pitta/food-avoid/sour.jpg);
+    background-blend-mode: darken;  
+    background-position: center;
+    background-size: cover;
+}
+
+/* food to add */
+.dominance .food-add-pitta #pic1{
+    background: rgba(0,0,0,.3) url(./img/back/pitta/food-add/high-water.jpg);
+    background-blend-mode: darken;  
+    background-position: center;
+    background-size: cover;
+}
+.dominance .food-add-pitta #pic2{
+    background: rgba(0,0,0,.3) url(./img/back/pitta/food-add/ghee.jpg);
+    background-blend-mode: darken;  
+    background-position: center;
+    background-size: cover;
+}
+.dominance .food-add-pitta #pic3{
+    background: rgba(0,0,0,.3) url(./img/back/pitta/food-add/mint.jpg);
+    background-blend-mode: darken;  
+    background-position: center;
+    background-size: cover;
+}
+.dominance .food-add-pitta #pic4{
+    background: rgba(0,0,0,.3) url(./img/back/pitta/food-add/jaggery.jpg);
+    background-blend-mode: darken;  
+    background-position: center;
+    background-size: cover;
+}
+
+/* daily habits to add */
+.dominance .daily-habits-pitta #pic1{
+    background: rgba(0,0,0,.3) url(./img/back/pitta/food-add/jaggery.jpg);
+    background-blend-mode: darken;  
+    background-position: center;
+    background-size: cover;
+}
+
+
+/* kapha */
+#kapha-dominance .heading{
+    background: url(./img/back/kapha-back.jpg)no-repeat;
+    background-size: cover;
+}
+
+.width60{
+    width: 70%;
+}
+.dominance .careerpics-kapha #pic1{
+    background: rgba(0,0,0,.3) url(./img/back/kapha/admin.png);
+    background-blend-mode: darken;  
+    background-position: center;
+    background-size: cover;
+}
+.dominance .careerpics-kapha #pic2{
+    background: rgba(0,0,0,.3) url(./img/back/kapha/public.jpg);
+    background-blend-mode: darken;  
+    background-position: center;
+    background-size: cover;
+}
+.dominance .careerpics-kapha #pic3{
+    background: rgba(0,0,0,.3) url(./img/back/kapha/nursing.jpg);
+    background-blend-mode: darken;  
+    background-position: center;
+    background-size: cover;
+}
+.dominance .careerpics-kapha #pic4{
+    background: rgba(0,0,0,.3) url(./img/back/kapha/counselling.jpg);
+    background-blend-mode: darken;  
+    background-position: center;
+    background-size: cover;
+}
+/* problems */
+.dominance .problems-kapha #pic1{
+    
+        background: rgba(0,0,0,.3) url(./img/back/kapha/problems/cough.jpg);
+        background-blend-mode: darken;  
+        background-position: center;
+        background-size: cover;
+    
+}
+.dominance .problems-kapha #pic2{
+    
+        background: rgba(0,0,0,.3) url(./img/back/kapha/problems/cold.jpg);
+        background-blend-mode: darken;  
+        background-position: center;
+        background-size: cover;
+    
+}
+.dominance .problems-kapha #pic3{
+    
+        background: rgba(0,0,0,.3) url(./img/back/kapha/problems/sinus.jpg);
+        background-blend-mode: darken;  
+        background-position: center;
+        background-size: cover;
+    
+}
+.dominance .problems-kapha #pic4{
+    
+        background: rgba(0,0,0,.3) url(./img/back/kapha/problems/sneezing.jpg);
+        background-blend-mode: darken;  
+        background-position: center;
+        background-size: cover;
+    
+}
+.dominance .problems-kapha #pic5{
+    
+        background: rgba(0,0,0,.3) url(./img/back/kapha/problems/lethargy.jpg);
+        background-blend-mode: darken;  
+        background-position: center;
+        background-size: cover;
+    
+}
+.dominance .problems-kapha #pic6{
+    
+        background: rgba(0,0,0,.3) url(./img/back/kapha/problems/obesity.jpg);
+        background-blend-mode: darken;  
+        background-position: center;
+        background-size: cover;
+    
+}
+.dominance .problems-kapha #pic7{
+    
+        background: rgba(0,0,0,.3) url(./img/back/kapha/problems/procrastination.jpg);
+        background-blend-mode: darken;  
+        background-position: center;
+        background-size: cover;
+    
+}
+.dominance .problems-kapha #pic8{
+    
+        background: rgba(0,0,0,.3) url(./img/back/kapha/problems/phlegm.jpg);
+        background-blend-mode: darken;  
+        background-position: center;
+        background-size: cover;
+    
+}
+
+/* food to avoid */
+
+.dominance .food-avoid-kapha #pic1{
+    
+    background: rgba(0,0,0,.3) url(./img/back/kapha/foods-avoid/refined.jpg);
+    background-blend-mode: darken;  
+    background-position: center;
+    background-size: cover;
+
+}
+.dominance .food-avoid-kapha #pic2{
+    
+    background: rgba(0,0,0,.3) url(./img/back/kapha/foods-avoid/heavy.jpg);
+    background-blend-mode: darken;  
+    background-position: center;
+    background-size: cover;
+
+}
+.dominance .food-avoid-kapha #pic3{
+    
+    background: rgba(0,0,0,.3) url(./img/back/kapha/foods-avoid/red.jpg);
+    background-blend-mode: darken;  
+    background-position: center;
+    background-size: cover;
+
+}
+.dominance .food-avoid-kapha #pic4{
+    
+    background: rgba(0,0,0,.3) url(./img/back/kapha/foods-avoid/artificial.jpg);
+    background-blend-mode: darken;  
+    background-position: center;
+    background-size: cover;
+
+}
+
+/* food to add */
+.dominance .food-add-kapha #pic1{
+    
+    background: rgba(0,0,0,.3) url(./img/back/kapha/food-add/spicy.jpg);
+    background-blend-mode: darken;  
+    background-position: center;
+    background-size: cover;
+
+}
+.dominance .food-add-kapha #pic2{
+    
+    background: rgba(0,0,0,.3) url(./img/back/kapha/food-add/fruits.jpg);
+    background-blend-mode: darken;  
+    background-position: center;
+    background-size: cover;
+
+}
+.dominance .food-add-kapha #pic3{
+    
+    background: rgba(0,0,0,.3) url(./img/back/kapha/food-add/veg-salad.jpg);
+    background-blend-mode: darken;  
+    background-position: center;
+    background-size: cover;
+
+}
+.dominance .food-add-kapha #pic4{
+    
+    background: rgba(0,0,0,.3) url(./img/back/kapha/food-add/ginger.jpg);
+    background-blend-mode: darken;  
+    background-position: center;
+    background-size: cover;
+
+}
+.dominance .food-add-kapha #pic5{
+    
+    background: rgba(0,0,0,.3) url(./img/back/kapha/food-add/besan.jpg);
+    background-blend-mode: darken;  
+    background-position: center;
+    background-size: cover;
+
+}
+/* habits */
+.dominance .daily-habits-kapha #pic1{
+    
+    background: rgba(0,0,0,.3) url(./img/back/kapha/habits/excercise.jpg);
+    background-blend-mode: darken;  
+    background-position: center;
+    background-size: cover;
+
+}
+.dominance .daily-habits-kapha #pic2{
+    
+    background: rgba(0,0,0,.3) url(./img/back/kapha/habits/wakingup.jpg);
+    background-blend-mode: darken;  
+    background-position: center;
+    background-size: cover;
+
+}
+
+/* to hide */
+#vata-dominance{
+    display: none;
+}
+#pitta-dominance{
+    display: none;
+}
+#kapha-dominance{
+    display: none;
+}
+/* for blank */
+.blank{
+    height: 200px;
+}
